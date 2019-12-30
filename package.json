@@ -1,0 +1,32 @@
+{
+  "name": "githook",
+  "version": "1.0.1",
+  "description": "git hook",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HeiLiu/gitHook.git"
+  },
+  "keywords": [
+    "git",
+    "hook",
+    "git cz",
+    "standard-version"
+  ],
+  "author": "HeiLiu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HeiLiu/gitHook/issues"
+  },
+  "homepage": "https://github.com/HeiLiu/gitHook#readme",
+  "devDependencies": {
+    "commitizen": "^4.0.3",
+    "cz-conventional-changelog": "^3.0.2",
+    "standard-version": "^7.0.1"
+  },
+  "dependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "release": "standard-version"
+  }
+}
