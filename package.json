@@ -26,7 +26,8 @@
   },
   "dependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "release": "standard-version"
+    "commit": "git cz",
+    "release": "standard-version",
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
