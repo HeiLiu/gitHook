@@ -22,11 +22,13 @@
   "devDependencies": {
     "commitizen": "^4.0.3",
     "cz-conventional-changelog": "^3.0.2",
+    "prettier": "^1.19.1",
     "standard-version": "^7.0.1"
   },
   "dependencies": {},
   "scripts": {
     "commit": "git cz",
+    "prettier:check": "prettier -c --write './src/**/*'",
     "release": "standard-version",
     "test": "echo \"Error: no test specified\" && exit 1"
   }
