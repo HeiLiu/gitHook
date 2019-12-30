@@ -1,6 +1,6 @@
 {
   "name": "githook",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "git hook",
   "main": "index.js",
   "repository": {
@@ -31,7 +31,7 @@
     "prettier:check": "prettier -c --write './src/**/*'",
     "release": "standard-version",
     "prerelease": "standard-version release --prerelease",
-    "release:minor": "standard-version release -- --release-as minor",
+    "release:minor": "standard-version release -- --release-as patch",
     "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
