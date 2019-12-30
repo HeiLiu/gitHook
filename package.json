@@ -1,6 +1,6 @@
 {
   "name": "githook",
-  "version": "1.0.3-0",
+  "version": "1.0.3",
   "description": "git hook",
   "main": "index.js",
   "repository": {
