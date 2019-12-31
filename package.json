@@ -31,7 +31,8 @@
   "scripts": {
     "commit": "git cz",
     "lint": "",
-    "prettier:check": "prettier -c --write '*.js'",
+    "prettier": "prettier -c --write '*.js'",
+    "prettier:check": "prettier --check",
     "release": "standard-version",
     "prerelease": "standard-version release --prerelease",
     "release:minor": "standard-version release -- --release-as patch",
