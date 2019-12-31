@@ -20,7 +20,7 @@
   "scripts": {
     "commit": "prettier -c '*.js' && git cz",
     "lint": "eslint --ext .js",
-    "prettier": "prettier -c --write",
+    "prettier": "prettier -c --write '*.js'",
     "release-major": "standard-version -r major",
     "release-minor": "standard-version -r minor",
     "release-patch": "standard-version -r patch",

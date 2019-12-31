@@ -1,10 +1,5 @@
 **/*.md
-**/*.svg
 **/*.ejs
-**/*.html
-**/*.png
-**/*.ttf
-**/*.woff
 
 .babelrc
 .DS_Store
