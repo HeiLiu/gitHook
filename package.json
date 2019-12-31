@@ -18,10 +18,10 @@
   },
   "homepage": "https://github.com/HeiLiu/gitHook#readme",
   "scripts": {
-    "commit": "prettier -c '*.js' && git cz",
+    "commit": "prettier -c 'src/*.js' && git cz",
     "lint": "eslint --ext .js",
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s",
-    "prettier": "prettier -c --write '*.js'",
+    "prettier": "prettier -c --write 'src/*.js'",
     "release-major": "standard-version -r major",
     "release-minor": "standard-version -r minor",
     "release-patch": "standard-version -r patch",
@@ -39,7 +39,7 @@
     "*.js": [
       "eslint --ext .js",
       "eslint --fix",
-      "prettier -c '*.js'"
+      "prettier -c 'src/*.js'"
     ]
   },
   "devDependencies": {
