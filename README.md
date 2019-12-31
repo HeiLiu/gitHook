@@ -20,7 +20,9 @@ husky + lint-staged + eslint + prettier
 
 ### lint-staged
 
-其中 staged 是 Git 里面的概念，指待提交区，使用 git commit -a，或者先 git add 然后 git commit 的时候，你的修改代码都会经过待提交区。 
+[lint-staged github](https://github.com/okonet/lint-staged) 
+
+其中 `staged` 是 `Git` 里面的概念，指待提交区(暂存区)， `git add` 将代码修改移入暂存区。 
 
 只会校验提交里面指定需要校验的文件
 
@@ -30,12 +32,15 @@ husky + lint-staged + eslint + prettier
       "pre-commit": "lint-staged"
     }
   },
+  // 指定需要检查的文件以及工具
   "lint-staged": {
-    // 指定需要校验的文件
     "src/*.js": [
       "eslint --ext .js",
       "eslint --fix",
-      "prettier -c 'src/*.js'"
+      "prettier --check 'src/*.js'"
+    ],
+    "*.css": [
+      "prettier --check"
     ]
   },
 ```
@@ -44,8 +49,8 @@ husky + lint-staged + eslint + prettier
 
 [standard-version](https://github.com/conventional-changelog/standard-version) / [release-it](https://github.com/release-it/release-it)
 
-standard-version 是一款遵循语义化版本[(semver)](https://semver.org/)和 commit message 标准规范 的版本和 changlog 自动化工具。 
-通常情况线下，我们会在 master 分支进行如下的版本发布操作：
+`standard-version` 是一款遵循语义化版本[(semver)](https://semver.org/)和 `commit message` 标准规范 的版本和 `changlog` 自动化工具。 
+通常情况下，我们会在 master 分支进行如下的版本发布操作：
 1. git pull origin master
 2. 根据 pacakage.json 中的 version 更新版本号，更新 changelog
 3. git add -A, 然后 git commit
@@ -56,9 +61,15 @@ standard-version 是一款遵循语义化版本[(semver)](https://semver.org/)�
 
 ## CHANGELOG 生成 
 
-- commitizen
-- conventional-changelog
-- conventional-changelog-cli
+- commitizen  
+    提供的 git cz 命令替代 git commit 命令, 帮助生成符合规范的 commit message
+- cz-conventional-changelog  
+  
+    适配器、不同的项目本身的构建方式的不同，commitizen 支持不同适配器的扩展，从而去满足不同的构建需求的。一个符合 Angular团队规范的 preset
+- conventional-changelog-cli  
+  
+    默认推荐的 commit 标准是来自angular  
+    目前集成了包括 atom, codemirror, ember, eslint, express, jquery 等项目的标准
 
 ```json
  "scripts": {
