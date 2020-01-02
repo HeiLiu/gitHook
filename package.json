@@ -1,6 +1,6 @@
 {
   "name": "githook",
-  "version": "1.4.0",
+  "version": "1.5.0",
   "description": "git hooks standard-version",
   "main": "index.js",
   "repository": {
@@ -20,7 +20,7 @@
   "scripts": {
     "commit": "prettier --check 'src/*.js' && git cz",
     "lint": "eslint --ext .js",
-    "clog": "conventional-changelog -p custom-config -i CHANGELOG.md -s -r 0 -n ./changelog-option.js && git add CHANGELOG.md",
+    "clog": "conventional-changelog -p custom-config -i CHANGELOG.md -s -r 0 -n ./changelog-option.js",
     "prettier": "prettier --check --write 'src/*.js'",
     "release:major": "standard-version -r major",
     "release:minor": "standard-version -r minor",
