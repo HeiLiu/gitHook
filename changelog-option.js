@@ -4,7 +4,7 @@ module.exports = {
         transform: (commit, context) => {
             let discard = true
             const issues = []
-            console.log({context}, {commit});
+            // console.log(context.packageData.author, context.packageData.keywords, commit.hash.substring(0,7));
 
             commit.notes.forEach(note => {
                 note.title = 'BREAKING CHANGES'
@@ -35,7 +35,6 @@ module.exports = {
             } else if (commit.type === 'chore') {
                 commit.type = '🎫 Chores | 其他更新'
             }
-
 
             if (commit.scope === '*') {
                 commit.scope = ''
