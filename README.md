@@ -74,6 +74,9 @@ CHANGELOG只有在发版时刻才生成
     默认推荐的 commit 标准是来自angular  
     目前集成了包括 atom, codemirror, ember, eslint, express, jquery 等项目的标准
 
+- conventional-changelog-custom-config  
+    要实现自定义的CHANGELOG需要该插件 支持自定义
+
     **script命令**：  
     conventional-changelog -p custom-config -i CHANGELOG.md -s -r 0 -n ./changelog-option.js   
     配置：  
@@ -153,7 +156,9 @@ revert: 恢复先前的提交
 
 
 
-## Git Hooks相关
+## Git Hooks相关  
+
+git hook 存在于项目中 .git 文件夹下的 hooks中，默认以点 sample 扩展名存在，不会被 git 管理到，使用hook进行控制git流程需要另外在项目中保存hooks  
 
 | 钩子               |                      阶段                      |                  用途                  |            |
 | :----------------- | :--------------------------------------------: | :------------------------------------: | :--------: |

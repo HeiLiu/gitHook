@@ -626,6 +626,11 @@ conventional-changelog-core@^4.0.2, conventional-changelog-core@^4.1.4:
     read-pkg-up "^3.0.0"
     through2 "^3.0.0"
 
+conventional-changelog-custom-config@^0.2.0:
+  version "0.2.0"
+  resolved "https://registry.npm.taobao.org/conventional-changelog-custom-config/download/conventional-changelog-custom-config-0.2.0.tgz#6ad4e7a6661ca4175ab1c45448304a65ac16662e"
+  integrity sha1-atTnpmYcpBdascRUSDBKZawWZi4=
+
 conventional-changelog-ember@^2.0.4:
   version "2.0.4"
   resolved "https://registry.npm.taobao.org/conventional-changelog-ember/download/conventional-changelog-ember-2.0.4.tgz#c29b78e4af7825cbecb6c3fd6086ca5c09471ac1"
