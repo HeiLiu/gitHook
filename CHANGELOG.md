@@ -1,11 +1,13 @@
-## <small>1.5.2 (2020-01-02)</small>
+# Changelog
+
+All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
+## [1.6.0](https://github.com/HeiLiu/gitHook/compare/v1.5.2...v1.6.0) (2020-01-02)
 
 
-## <small>1.5.1 (2020-01-02)</small>
+### Bug Fixes
 
-* fix: test log ([aa2d052](https://github.com/HeiLiu/gitHook/commit/aa2d052))
-
-
+* 自定义配置有问题 ([94868fe](https://github.com/HeiLiu/gitHook/commit/94868fef0c940ead983102755ecb17b7979c6fe8))
 
 ## 1.5.0 (2020-01-02)
 
@@ -103,7 +105,3 @@
 
 
 ## <small>1.0.1 (2019-12-30)</small>
-
-
-
-
