@@ -61,6 +61,7 @@ husky + lint-staged + eslint + prettier
 
 ## CHANGELOG 生成 
 
+CHANGELOG只有在发版时刻才生成  
 在 CHANGELOG.md 的头部加上自从上次发布版本以来的变动。
 
 - commitizen  
@@ -72,6 +73,24 @@ husky + lint-staged + eslint + prettier
 - conventional-changelog-cli  
     默认推荐的 commit 标准是来自angular  
     目前集成了包括 atom, codemirror, ember, eslint, express, jquery 等项目的标准
+
+    **script命令**：  
+    conventional-changelog -p custom-config -i CHANGELOG.md -s -r 0 -n ./changelog-option.js   
+    配置：  
+    ```
+    -p: 使用的模版、默认是angular，-p custom-config 使用自定义的配置 
+
+    -i: 
+
+    -s:
+
+    -r:
+
+    -n: 指定配置文件的路径
+
+    ```
+- standard-version 
+    包含版本管理和生成日志的功能
 
 ```json
  "scripts": {
