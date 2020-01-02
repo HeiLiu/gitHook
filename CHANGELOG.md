@@ -3,7 +3,7 @@
 
 ### 🐛 Bug Fixes | Bug 修复
 
-* **test:** test log ([4c65b6d](https://github.com/HeiLiu/gitHook/commit/4c65b6d))
+* **test:** test log ([4c65b6d](https://github.com/HeiLiu/gitHook/commit/4c65b6d)) by: **heiliu**
 
 
 
@@ -20,7 +20,7 @@
 
 ### 🐛 Bug Fixes | Bug 修复
 
-* 自定义配置有问题 ([94868fe](https://github.com/HeiLiu/gitHook/commit/94868fe))
+* 自定义配置有问题 ([94868fe](https://github.com/HeiLiu/gitHook/commit/94868fe)) by: **heiliu**
 
 
 
@@ -33,7 +33,7 @@
 
 ### 🐛 Bug Fixes | Bug 修复
 
-* test log ([aa2d052](https://github.com/HeiLiu/gitHook/commit/aa2d052))
+* test log ([aa2d052](https://github.com/HeiLiu/gitHook/commit/aa2d052)) by: **heiliu**
 
 
 
@@ -46,7 +46,7 @@
 
 ### ✨ Features | 新功能
 
-* **option:** 修改了日志生成的配置文件 ([5025032](https://github.com/HeiLiu/gitHook/commit/5025032))
+* **option:** 修改了日志生成的配置文件 ([5025032](https://github.com/HeiLiu/gitHook/commit/5025032)) by: **heiliu**
 
 
 
@@ -59,7 +59,7 @@
 
 ### 🐛 Bug Fixes | Bug 修复
 
-* 修改日志配置 ([592682b](https://github.com/HeiLiu/gitHook/commit/592682b))
+* 修改日志配置 ([592682b](https://github.com/HeiLiu/gitHook/commit/592682b)) by: **heiliu**
 
 
 
@@ -68,7 +68,7 @@
 
 ### 🐛 Bug Fixes | Bug 修复
 
-* 修改配置文件 ([fe6836f](https://github.com/HeiLiu/gitHook/commit/fe6836f))
+* 修改配置文件 ([fe6836f](https://github.com/HeiLiu/gitHook/commit/fe6836f)) by: **heiliu**
 
 
 
@@ -77,7 +77,7 @@
 
 ### ✨ Features | 新功能
 
-* **package.json:** 增加对于changlog的路径配置 ([385685c](https://github.com/HeiLiu/gitHook/commit/385685c))
+* **package.json:** 增加对于changlog的路径配置 ([385685c](https://github.com/HeiLiu/gitHook/commit/385685c)) by: **heiliu**
 
 
 
@@ -86,7 +86,7 @@
 
 ### 🐛 Bug Fixes | Bug 修复
 
-* 测试一下对于css文件的检查 ([0c88aad](https://github.com/HeiLiu/gitHook/commit/0c88aad))
+* 测试一下对于css文件的检查 ([0c88aad](https://github.com/HeiLiu/gitHook/commit/0c88aad)) by: **heiliu**
 
 
 
@@ -95,12 +95,12 @@
 
 ### ✨ Features | 新功能
 
-* 增加一级测试一下 ([a5d47bf](https://github.com/HeiLiu/gitHook/commit/a5d47bf))
+* 增加一级测试一下 ([a5d47bf](https://github.com/HeiLiu/gitHook/commit/a5d47bf)) by: **heiliu**
 
 
 ### 🐛 Bug Fixes | Bug 修复
 
-* 增加conventional-changelog 相关处理log 顺便测试一下fix能不能被打进去 ([62df180](https://github.com/HeiLiu/gitHook/commit/62df180))
+* 增加conventional-changelog 相关处理log 顺便测试一下fix能不能被打进去 ([62df180](https://github.com/HeiLiu/gitHook/commit/62df180)) by: **heiliu**
 
 
 
@@ -121,7 +121,7 @@
 
 ### 🐛 Bug Fixes | Bug 修复
 
-* fix something ([b7acc33](https://github.com/HeiLiu/gitHook/commit/b7acc33))
+* fix something ([b7acc33](https://github.com/HeiLiu/gitHook/commit/b7acc33)) by: **heiliu**
 
 
 
