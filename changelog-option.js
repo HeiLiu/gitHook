@@ -50,6 +50,7 @@ module.exports = {
                 if (url) {
                     url = `${url}/issues/`
                     // Issue URLs.
+                    console.log(url);
                     commit.subject = commit.subject.replace(/#([0-9]+)/g, (_, issue) => {
                         issues.push(issue)
                         return `[#${issue}](${url}${issue})`
@@ -57,6 +58,7 @@ module.exports = {
                 }
                 if (context.host) {
                     // User URLs.
+                    console.log(context.host);
                     commit.subject = commit.subject.replace(/\B@([a-z0-9](?:-?[a-z0-9/]){0,38})/g, (_, username) => {
                         if (username.includes('/')) {
                             return `@${username}`
