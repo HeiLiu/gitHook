@@ -27,12 +27,12 @@ husky + lint-staged + eslint + prettier
 只会校验提交里面指定需要校验的文件
 
 ```json
-  "husky": {
+    "husky": {
     "hooks": {
       "pre-commit": "lint-staged"
     }
   },
-  // 指定需要检查的文件以及工具
+  // 指定文件及校验规则
   "lint-staged": {
     "src/*.js": [
       "eslint --ext .js",
@@ -98,14 +98,14 @@ CHANGELOG只有在发版时刻才生成
     包含版本管理和生成日志的功能
 
 ```json
- "scripts": {
-    "commit": "prettier -c 'src/*.js' && git cz",
+"scripts": {
+    "commit": "prettier --check 'src/*.js' && git cz",
     "lint": "eslint --ext .js",
-    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s",
-    "prettier": "prettier -c --write 'src/*.js'",
-    "release-major": "standard-version -r major",
-    "release-minor": "standard-version -r minor",
-    "release-patch": "standard-version -r patch",
+    "clog": "conventional-changelog -p custom-config -i CHANGELOG.md -s -r 0 -n ./changelog-option.js",
+    "prettier": "prettier --check --write 'src/*.js' 'static/*.css'",
+    "release:major": "standard-version -r major",
+    "release:minor": "standard-version -r minor",
+    "release:patch": "standard-version -r patch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "commitizen": {
@@ -121,11 +121,15 @@ CHANGELOG只有在发版时刻才生成
       "eslint --ext .js",
       "eslint --fix",
       "prettier --check 'src/*.js'"
+    ],
+    "*.css": [
+      "prettier --check"
     ]
   },
   "devDependencies": {
     "commitizen": "^4.0.3",
     "conventional-changelog-cli": "^2.0.31",
+    "conventional-changelog-custom-config": "^0.2.0",
     "cz-conventional-changelog": "^3.0.2",
     "eslint": "^6.8.0",
     "husky": "^3.1.0",
