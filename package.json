@@ -20,7 +20,7 @@
   "scripts": {
     "commit": "prettier --check 'src/*.js' && git cz",
     "lint": "eslint --ext .js",
-    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s",
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -n ./changelog-option.js",
     "prettier": "prettier --check --write 'src/*.js'",
     "release-major": "standard-version -r major",
     "release-minor": "standard-version -r minor",
