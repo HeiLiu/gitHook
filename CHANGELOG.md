@@ -1,13 +1,15 @@
-# Changelog
-
-All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
-
-### [1.7.3](https://github.com/HeiLiu/gitHook/compare/v1.7.1...v1.7.3) (2020-01-02)
+## [1.7.3](https://github.com/HeiLiu/gitHook/compare/v1.7.1...v1.7.3) (2020-01-02)
 
 
-### Bug Fixes
+### 🐛 Bug Fixes | Bug 修复
 
-* **test:** test log ([4c65b6d](https://github.com/HeiLiu/gitHook/commit/4c65b6d2a73f76191656e8703f99c096b7aa8b90))
+* **test:** test log ([4c65b6d](https://github.com/HeiLiu/gitHook/commit/4c65b6d))
+
+
+
+## [1.7.1](https://github.com/HeiLiu/gitHook/compare/v1.7.0...v1.7.1) (2020-01-02)
+
+
 
 # [1.7.0](https://github.com/HeiLiu/gitHook/compare/v1.6.0...v1.7.0) (2020-01-02)
 
