@@ -1,0 +1,59 @@
+{
+  "name": "githook",
+  "version": "1.7.3",
+  "description": "git hooks standard-version",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HeiLiu/gitHook.git"
+  },
+  "keywords": [
+    "git",
+    "hooks"
+  ],
+  "author": "HeiLiu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HeiLiu/gitHook/issues"
+  },
+  "homepage": "https://github.com/HeiLiu/gitHook#readme",
+  "scripts": {
+    "commit": "prettier --check 'src/*.js' && git cz",
+    "lint": "eslint --ext .js",
+    "clog": "conventional-changelog -p custom-config -i CHANGELOG.md -s -r 0 -n ./changelog-option.js",
+    "prettier": "prettier --check --write 'src/*.js' 'static/*.css'",
+    "release:major": "standard-version -r major",
+    "release:minor": "standard-version -r minor",
+    "release:patch": "standard-version -r patch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "commitizen": {
+    "path": "cz-conventional-changelog"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "src/*.js": [
+      "eslint --ext .js",
+      "eslint --fix",
+      "prettier --check 'src/*.js'"
+    ],
+    "*.css": [
+      "prettier --check"
+    ]
+  },
+  "devDependencies": {
+    "commitizen": "^4.0.3",
+    "conventional-changelog-cli": "^2.0.31",
+    "conventional-changelog-custom-config": "^0.2.0",
+    "cz-conventional-changelog": "^3.0.2",
+    "eslint": "^6.8.0",
+    "husky": "^3.1.0",
+    "lint-staged": "^9.5.0",
+    "prettier": "^1.19.1",
+    "standard-version": "^7.0.1"
+  }
+}

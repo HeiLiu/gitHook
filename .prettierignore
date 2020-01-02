@@ -1,0 +1,5 @@
+**/*.md
+**/*.ejs
+
+.babelrc
+.DS_Store
