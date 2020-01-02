@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.3.2](https://github.com/HeiLiu/gitHook/compare/v1.3.1...v1.3.2) (2020-01-02)
+
+
+### Features
+
+* **package.json:** 增加对于changlog的路径配置 ([385685c](https://github.com/HeiLiu/gitHook/commit/385685c69a75e0fc3657940a07144614d44bea8f))
+
 ### [1.3.1](https://github.com/HeiLiu/gitHook/compare/v1.3.0...v1.3.1) (2020-01-02)
 
 
