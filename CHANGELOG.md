@@ -1,3 +1,14 @@
+# Changelog
+
+All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
+### [1.3.4](https://github.com/HeiLiu/gitHook/compare/v1.3.3...v1.3.4) (2020-01-02)
+
+
+### Bug Fixes
+
+* 修改日志配置 ([592682b](https://github.com/HeiLiu/gitHook/commit/592682be01a4f9af6c93a452b5e616bee321cbb1))
+
 ## [1.3.3](https://github.com/HeiLiu/gitHook/compare/v1.3.2...v1.3.3) (2020-01-02)
 
 
@@ -91,6 +102,3 @@
 
 
 ## 1.0.1 (2019-12-30)
-
-
-
