@@ -62,12 +62,12 @@ husky + lint-staged + eslint + prettier
 ## CHANGELOG 生成 
 
 - commitizen  
-    提供的 git cz 命令替代 git commit 命令, 帮助生成符合规范的 commit message
+    提供的 git cz 命令替代 git commit 命令, 帮助生成符合规范的 commit message  
+
 - cz-conventional-changelog  
-  
-    适配器、不同的项目本身的构建方式的不同，commitizen 支持不同适配器的扩展，从而去满足不同的构建需求的。一个符合 Angular团队规范的 preset
+    适配器、不同的项目本身的构建方式的不同，commitizen 支持不同适配器的扩展，从而去满足不同的构建需求的。一个符合 Angular团队规范的 preset  
+
 - conventional-changelog-cli  
-  
     默认推荐的 commit 标准是来自angular  
     目前集成了包括 atom, codemirror, ember, eslint, express, jquery 等项目的标准
 
