@@ -16,6 +16,12 @@
   "bugs": {
     "url": "https://github.com/HeiLiu/gitHook/issues"
   },
+  "changelog": {
+    "bugsUrl": "https://github.com/HeiLiu/gitHook/issues",
+    "emojis": true,
+    "authorName": true,
+    "authorEmail": true
+  },
   "homepage": "https://github.com/HeiLiu/gitHook#readme",
   "scripts": {
     "commit": "prettier --check 'src/*.js' && git cz",
@@ -24,8 +30,7 @@
     "prettier": "prettier --check --write 'src/*.js' 'static/*.css'",
     "release:major": "standard-version -r major",
     "release:minor": "standard-version -r minor",
-    "release:patch": "standard-version -r patch",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "release:patch": "standard-version -r patch"
   },
   "commitizen": {
     "path": "cz-conventional-changelog"

@@ -4,7 +4,6 @@ module.exports = {
         transform: (commit, context) => {
             let discard = true
             const issues = []
-            console.log({commit}, {context});
 
             commit.notes.forEach(note => {
                 note.title = 'BREAKING CHANGES'
@@ -19,6 +18,7 @@ module.exports = {
             } else if (commit.type === 'revert' || commit.revert) {
                 commit.type = '⏪ Reverts | 回退'
             } else if (discard) {
+              // 想收集更多类型则放在discard之前
                 return
             } else if (commit.type === 'docs') {
                 commit.type = '📝 Documentation | 文档'
