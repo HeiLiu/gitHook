@@ -1,8 +1,11 @@
-# Changelog
+## <small>1.5.2 (2020-01-02)</small>
 
-All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
-### [1.5.2](https://github.com/HeiLiu/gitHook/compare/v1.5.1...v1.5.2) (2020-01-02)
+## <small>1.5.1 (2020-01-02)</small>
+
+* fix: test log ([aa2d052](https://github.com/HeiLiu/gitHook/commit/aa2d052))
+
+
 
 ## 1.5.0 (2020-01-02)
 
@@ -100,3 +103,7 @@ All notable changes to this project will be documented in this file. See [standa
 
 
 ## <small>1.0.1 (2019-12-30)</small>
+
+
+
+
