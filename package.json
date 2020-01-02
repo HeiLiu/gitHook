@@ -21,6 +21,7 @@
     "commit": "prettier --check 'src/*.js' && git cz",
     "lint": "eslint --ext .js",
     "clog": "conventional-changelog -p custom-config -i CHANGELOG.md -s -r 0 -n ./changelog-option.js",
+    "changelog": "conventional-changelog -p custom-config -i CHANGELOG.md -s -r 0 -n ./changelog-option.js",
     "prettier": "prettier --check --write 'src/*.js'",
     "release:major": "standard-version -r major",
     "release:minor": "standard-version -r minor",
