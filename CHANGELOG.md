@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.3.1](https://github.com/HeiLiu/gitHook/compare/v1.3.0...v1.3.1) (2020-01-02)
+
+
+### Bug Fixes
+
+* 测试一下对于css文件的检查 ([0c88aad](https://github.com/HeiLiu/gitHook/commit/0c88aad3d8b19a0babd5cc1cceb11f527b16c06a))
+
 ## [1.3.0](https://github.com/HeiLiu/gitHook/compare/v1.2.1...v1.3.0) (2019-12-31)
 
 
